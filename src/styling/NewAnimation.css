@@ -1,0 +1,118 @@
+.searchbar{
+    width:400px;
+    	height: 33px;
+    	background-color: #ffffff;
+    	padding: 3px 4px;
+    	border: 2px solid #FFF;
+    	box-shadow: 0px 0px 0px 2px #A9A9A9;
+    	border-radius: 40px;
+        position: absolute;
+        top: 45%;
+        left: 38%;
+}
+
+.K{
+    position: absolute;
+    font-family: Futura;
+    font-size: 80px;
+    top: 30%;
+    left: 44.5%;
+    color:#4285F4;
+    margin-left: -50px
+}
+
+.O{
+    position: absolute;
+    font-family: Futura;
+    font-size: 80px;
+    top:30%;
+    left: 48%;
+    color:#DB4437;
+    margin-left: -50px
+}
+.O2{
+    position: absolute;
+    font-family: Futura;
+    font-size: 80px;
+    top:30%;
+    left: 51.5%;
+    color:#F4B400;
+    margin-left: -50px
+}
+.G{
+    position: absolute;
+    font-family: Futura;
+    font-size: 80px;
+    top:30%;
+    left: 55%;
+    color:#4285F4;
+    margin-left: -50px
+}
+.L{
+    position: absolute;
+    font-family: Futura;
+    font-size: 80px;
+    top:30%;
+    left: 58.5%;
+    color:#0F9D58;
+    margin-left: -50px
+}
+.E{
+    position: absolute;
+    font-family: Futura;
+    font-size: 80px;
+    top:30%;
+    left: 61.5%;
+    color:#DB4437;
+    margin-left: -50px
+}
+.search{
+    position: absolute;
+    top:52%;
+    left: 40%;
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.feelingLucky{
+    position: absolute;
+    top:52%;
+    left: 52%;
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.gmail{
+    position: absolute;
+    top:1.5%;
+    right: 13%;
+}
+.images{
+    position: absolute;
+    top:1.5%;
+    right: 16%;
+}
+.about{
+    position: absolute;
+    top:2%;
+    left: 3%;
+}
+.store{
+    position: absolute;
+    top:2%;
+    left: 7%;
+}

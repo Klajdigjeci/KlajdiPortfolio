@@ -1,0 +1,350 @@
+.searchbar2{
+        width:400px;
+    	height: 33px;
+    	background-color: #ffffff;
+    	padding: 3px 4px;
+    	border: 2px solid #FFF;
+    	box-shadow: 0px 0px 0px 2px #A9A9A9;
+    	border-radius: 40px;
+        position: absolute;
+        top: 1%;
+        left: 20%;
+}
+
+.K-{
+    position: absolute;
+    font-family: Futura;
+    font-size: 20px;
+    top: 1%;
+    left: 5%;
+    color:#4285F4;
+    margin-left: -50px
+}
+
+.O-{
+    position: absolute;
+    font-family: Futura;
+    font-size: 20px;
+    top:1%;
+    left: 6%;
+    color:#DB4437;
+    margin-left: -50px
+}
+.O2-{
+    position: absolute;
+    font-family: Futura;
+    font-size: 20px;
+    top:1%;
+    left: 7%;
+    color:#F4B400;
+    margin-left: -50px
+}
+.G-{
+    position: absolute;
+    font-family: Futura;
+    font-size: 20px;
+    top:1%;
+    left:8%;
+    color:#4285F4;
+    margin-left: -50px
+}
+.L-{
+    position: absolute;
+    font-family: Futura;
+    font-size: 20px;
+    top:1%;
+    left: 9%;
+    color:#0F9D58;
+    margin-left: -50px
+}
+.E-{
+    position: absolute;
+    font-family: Futura;
+    font-size: 20px;
+    top:1%;
+    left: 10%;
+    color:#DB4437;
+    margin-left: -50px
+}
+.link{
+    font-family:Arial;
+    font-size: 18px;
+    color: #1a0dab;
+    position: absolute;
+    top:10%;
+    left: 21%;
+}
+
+.greenResult1{
+    font-family:Arial;
+    font-size: 14px;
+    color: #006621;
+    position: absolute;
+    top:13%;
+    left: 21%;
+
+}
+
+.resultInfo1{
+    font-family:Arial;
+    font-size: 13px;
+    color: #545454;
+    position: absolute;
+    top:16%;
+    left: 21%;
+
+}
+
+.result2{
+    font-family:Arial;
+    font-size: 18px;
+    color: #1a0dab;
+    position: absolute;
+    top:20%;
+    left: 21%;
+}
+.greenResult2{
+    font-family:Arial;
+    font-size: 14px;
+    color: #006621;
+    position: absolute;
+    top:23%;
+    left: 21%;
+
+}
+
+.resultInfo2{
+    font-family:Arial;
+    font-size: 13px;
+    color: #545454;
+    position: absolute;
+    top:26%;
+    left: 21%;
+}
+
+.result3{
+    font-family:Arial;
+    font-size: 18px;
+    color: #1a0dab;
+    position: absolute;
+    top:30%;
+    left: 21%;
+}
+.greenResult3{
+    font-family:Arial;
+    font-size: 14px;
+    color: #006621;
+    position: absolute;
+    top:33%;
+    left: 21%;
+
+}
+
+.resultInfo3{
+    font-family:Arial;
+    font-size: 13px;
+    color: #545454;
+    position: absolute;
+    top:36%;
+    left: 21%;
+}
+.result4{
+    font-family:Arial;
+    font-size: 18px;
+    color: #1a0dab;
+    position: absolute;
+    top:40%;
+    left: 21%;
+}
+.greenResult4{
+    font-family:Arial;
+    font-size: 14px;
+    color: #006621;
+    position: absolute;
+    top:43%;
+    left: 21%;
+
+}
+
+.resultInfo4{
+    font-family:Arial;
+    font-size: 13px;
+    color: #545454;
+    position: absolute;
+    top:46%;
+    left: 21%;
+}
+.result5{
+    font-family:Arial;
+    font-size: 18px;
+    color: #1a0dab;
+    position: absolute;
+    top:50%;
+    left: 21%;
+}
+.greenResult5{
+    font-family:Arial;
+    font-size: 14px;
+    color: #006621;
+    position: absolute;
+    top:53%;
+    left: 21%;
+
+}
+
+.resultInfo5{
+    font-family:Arial;
+    font-size: 13px;
+    color: #545454;
+    position: absolute;
+    top:56%;
+    left: 21%;
+}
+.result6{
+    font-family:Arial;
+    font-size: 18px;
+    color: #1a0dab;
+    position: absolute;
+    top:60%;
+    left: 21%;
+}
+.greenResult6{
+    font-family:Arial;
+    font-size: 14px;
+    color: #006621;
+    position: absolute;
+    top:63%;
+    left: 21%;
+
+}
+
+.resultInfo6{
+    font-family:Arial;
+    font-size: 13px;
+    color: #545454;
+    position: absolute;
+    top:66%;
+    left: 21%;
+}
+
+.end{
+    position: absolute;
+    top:70%;
+    left: 21%;
+}
+
+.K-1{
+    position: absolute;
+    font-family: Futura;
+    font-size: 30px;
+    top: 78%;
+    left: 35%;
+    color:#4285F4;
+    margin-left: -50px
+}
+
+.O-1{
+    position: absolute;
+    font-family: Futura;
+    font-size: 30px;
+    top:78%;
+    left: 47%;
+    color:#DB4437;
+    margin-left: -50px
+}
+.O2-1{
+    position: absolute;
+    font-family: Futura;
+    font-size: 30px;
+    top:78%;
+    left: 37%;
+    color:#F4B400;
+    margin-left: -50px
+}
+.O2-2{
+    position: absolute;
+    font-family: Futura;
+    font-size: 30px;
+    top:78%;
+    left: 39%;
+    color:#F4B400;
+    margin-left: -50px
+}
+.O2-3{
+    position: absolute;
+    font-family: Futura;
+    font-size: 30px;
+    top:78%;
+    left: 41%;
+    color:#F4B400;
+    margin-left: -50px
+}
+.O2-4{
+    position: absolute;
+    font-family: Futura;
+    font-size: 30px;
+    top:78%;
+    left: 43%;
+    color:#F4B400;
+    margin-left: -50px
+}
+.O2-5{
+    position: absolute;
+    font-family: Futura;
+    font-size: 30px;
+    top:78%;
+    left: 45%;
+    color:#F4B400;
+    margin-left: -50px
+}
+.G-1{
+    position: absolute;
+    font-family: Futura;
+    font-size: 30px;
+    top:78%;
+    left:49%;
+    color:#4285F4;
+    margin-left: -50px
+}
+.L-1{
+    position: absolute;
+    font-family: Futura;
+    font-size: 30px;
+    top:78%;
+    left: 51%;
+    color:#0F9D58;
+    margin-left: -50px
+}
+.E-1{
+    position: absolute;
+    font-family: Futura;
+    font-size: 30px;
+    top:78%;
+    left: 53%;
+    color:#DB4437;
+    margin-left: -50px
+}
+
+.arrowLeft{
+    position: absolute;
+    top:79.5%;
+    left: 30%;
+}
+
+.arrowRight{
+    position: absolute;
+    top:79.5%;
+    left: 52%;
+}
+.gicon{
+    position: absolute;
+    top:1%;
+    right: 10%;
+    font-size:20px;
+}
+.gicon-2{
+    position: absolute;
+    top:1%;
+    right: 7%;
+    font-size:20px;
+}

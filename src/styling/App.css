@@ -1,0 +1,13 @@
+html,body{
+  height:100%;
+  background-color: white;
+}
+body{
+  text-align:center;
+}
+.mainHeader{
+    background-image: url(../images/0.jpg);
+}
+.portfolio{
+    padding-bottom: 50px;
+}

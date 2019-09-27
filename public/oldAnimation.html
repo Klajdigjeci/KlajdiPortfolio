@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Processing.JS inside Webpages: Template</title>
+  </head>
+  <body>
+	<!--This draws the canvas on the webpage -->
+    <canvas id="mycanvas"></canvas>
+  </body>
+
+  <!-- Include the processing.js library -->
+  <!-- See https://khanacademy.zendesk.com/hc/en-us/articles/202260404-What-parts-of-ProcessingJS-does-Khan-Academy-support- for differences -->
+  <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
+
+  <script>
+
+  var programCode = function(processingInstance) {
+      with (processingInstance) {
+	  var w = window.innerWidth;
+      var h = window.innerHeight;
+      size(w, h);
+      frameRate(30);
+
+	  background(255, 255, 255);
+
+	var audio = new Audio("keyboard.wav");
+	audio.play();
+//This is the function to build the face on the right hand side
+	  var buildNormalFace = function(){
+		fill(255, 255, 0);
+		ellipse(1485, 35, 40, 40);
+		noFill();
+		stroke(0, 0, 0);
+		strokeWeight(2);
+		arc(1485, 35, 30, 25, 0, PI);
+		fill(0, 0, 0);
+		ellipse(1475, 30, 2, 2);
+		ellipse(1495, 30, 2, 2);
+	  };
+	   var buildAngryFace = function(){
+		fill(255, 0, 0);
+		ellipse(1485, 35, 40, 40);
+		noFill();
+		stroke(0, 0, 0);
+		strokeWeight(2);
+		line(1475, 45, 1495, 40);
+		fill(0, 0, 0);
+		ellipse(1475, 30, 2, 2);
+		ellipse(1495, 30, 2, 2);
+	  };
+
+	    var buildHappyFace = function(){
+		fill(0, 255, 0);
+		ellipse(1485, 35, 40, 40);
+		noFill();
+		stroke(0, 0, 0);
+		strokeWeight(2);
+		arc(1485, 35, 30, 25, 0, PI);
+		fill(0, 0, 0);
+		ellipse(1475, 30, 2, 2);
+		ellipse(1495, 30, 2, 2);
+	  };
+
+	  //buildTheFace();
+	  //about and store links
+	  var buildAboutButton = function(){
+		fill(0,0,0);
+		textSize(15);
+		text("About", 30 , 40);
+	  };
+	  var buildStoreButton = function(){
+	    fill(0,0,0);
+		textSize(15);
+		text("Store",90,40);
+	  };
+	  //gmail, images and profile
+	  var buildGmailButton = function(){
+		fill(0,0,0);
+		textSize(15);
+		text("Gmail", 1300 , 40);
+      };
+	  var buildImagesButton = function(){
+		fill(0,0,0);
+		text("Images",1360,40);
+	  };
+	  var buildSymbol = function(){
+		fill(0,0,0);
+		textSize(20);
+		text("☷",1430,40);
+	  };
+
+
+
+	  //koogle words
+	  var buildKoogleLetters= function(){
+		var wordX = 580;
+		var wordY = 350;
+		var con = 65;
+		textSize(100);
+		var f = createFont("futura");
+		textFont(f);
+		fill(72, 133, 237);
+		text("K",wordX,wordY);
+		fill(219, 50, 54);
+		text("o",wordX+ con,wordY);
+		fill(244, 194, 13);
+		text("o",wordX+ (con*1.9),wordY);
+		fill(72, 133, 237);
+		text("g",wordX+ (con*2.85),wordY);
+		fill(60, 186, 84);
+		text("l",wordX+ (con*3.85),wordY);
+		fill(219, 50, 54);
+		text("e",wordX+ (con*4.25),wordY);
+	  };
+	  //searchbar
+
+
+
+	 var x =220;
+
+	 var buildSearchBar= function(x){
+	    strokeWeight(5);
+	    stroke(x,x,x,100);
+	    fill(255,255,255);
+	    rect(485, 380, 500, 50, 30);
+	    fill(0,0,0);
+	    textSize(19);
+	};
+		text("Click Here To Continue", 640,410);
+	  //}
+	  //buttons
+	  var buildSearchButton=function(){
+		noStroke();
+		textSize(15);
+		fill(192,192,192);
+		rect(520, 450, 200, 50);
+		fill(0,0,0);
+		text("Koogle Search",570,480);
+	  };
+
+	   var buildSearchButtonRed=function(){
+		noStroke();
+		textSize(15);
+		fill(255,0,0);
+		rect(520, 450, 200, 50);
+		fill(0,0,0);
+		text("Koogle Search",570,480);
+	  };
+
+	  var buildLuckyButton=function(){
+		noStroke();
+		textSize(15);
+		fill(192,192,192);
+		rect(740, 450, 200, 50);
+		fill(0,0,0);
+		text("I am feeling lucky",780,480);
+	  };
+
+	  var gj = 300;
+	  var gje = 380;
+	  var buildIrregularShape = function(){
+	    fill(255,255,255);
+		noStroke();
+		rect(290, 380, 200, 400, 30);
+	  };
+	 // Draw the image at its default size
+
+
+
+	 buildAboutButton();
+	 buildStoreButton();
+	 buildGmailButton();
+	 buildImagesButton();
+	 buildSymbol();
+	 buildAngryFace();
+	 buildKoogleLetters();
+
+	 buildSearchButton();
+	 buildLuckyButton();
+
+var mia = 470;
+var mja = 430;
+	var draw = function(){
+		buildIrregularShape();
+		stroke(0,0,0);
+		fill(0,0,0);
+		text("▲",gj,gje+400);
+	//	rect(gj,gje+400,10,10);
+
+		if(gj<540 && gje>30){
+		 gj = gj + 2;
+		 gje= gje -4;
+		}else{
+		buildNormalFace();
+		//playSound(getSound(keyboard.wav));
+		text("KLAJDI GJECI", 640,410);
+			fill(255,255,255);
+			noStroke();
+			rect(450,420,80,100);
+			fill(0,0,0);
+			text("▲",mia,mja);
+			if(mia < 520 && mja < 480){
+				mia++;
+				mja++;
+			}else{
+				buildHappyFace();
+				buildSearchButtonRed();
+			}
+
+		}
+
+	}
+	buildSearchBar(x);
+
+
+
+	//}
+
+
+
+	}};
+  // Get the canvas that ProcessingJS will use
+  var canvas = document.getElementById("mycanvas");
+  // Pass the function to ProcessingJS constructor
+  var processingInstance = new Processing(canvas, programCode);
+  </script>
+  <p id="demo" onmousedown="mouseDown()" onmouseup="mouseUp()">Click me.</p>
+  <script>
+
+  function mouseDown() {
+  document.getElementById("demo").innerHTML = "The mouse button is held down.";
+    }
+	</script>
+	<audio controls>
+  <source id="key" src="keyboard.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+	<script type="text/javascript">
+    setTimeout(function(){
+      document.getElementById("key").play();
+    })
+  </script>
+
+  <meta http-equiv="refresh" content="8;url=/klajdiPortfolio/klajdiportfolio.html" />
+</html>

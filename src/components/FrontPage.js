@@ -9,7 +9,7 @@ class FrontPage extends React.Component{
             <div class="sixteen wide column"></div>
             <div class="sixteen wide column"></div>
             <div class="sixteen wide column"></div>
-        <div class="sixteen wide column"><h1 class="mainText"> Klajdi Gjeci Profolio </h1></div>
+        <div class="sixteen wide column"><h1 class="mainText"> Klajdi Gjeci Portfolio </h1></div>
         <div class="sixteen wide column"></div>
         <div class="sixteen wide column"></div>
         <div class="sixteen wide column"></div>

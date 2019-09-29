@@ -35,7 +35,7 @@ class NewAnimationPageTwo extends React.Component{
             <p className="resultInfo4"> Klajdi Gjeci. Computer Science Major. Andrew Glenn. Geology Major. Cole Gloor. Mathematics: Secondary Education Major. David Godinez. Physics Major.</p>
         </div>
         <div>
-            <a href="https://drive.google.com/file/d/1oUcGBUWcriQXrXHBU0L9qjKY8vD27JMN/view?usp=sharing" className="result5" target="_blank"> Klajdi Gjeci | Resume.pdf </a>
+            <a href="https://drive.google.com/file/d/1VL8ZQ-cON6wI41WvBjcfGavp_pGwlsgt/view?usp=sharing" className="result5" target="_blank"> Klajdi Gjeci | Resume.pdf </a>
             <p className="greenResult5"> klajdigjeciresume.pdf </p>
             <p className="resultInfo5"> This is the main Resume for Klajdi Gjeci direct link</p>
         </div>

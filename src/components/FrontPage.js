@@ -28,6 +28,7 @@ class FrontPage extends React.Component{
 
         <div class="eight wide column">
             <a href="newAnimation"> New Animation </a>
+            <p> * full screen for best view of animation </p>
         </div>
         <div class="eight wide column">
             <a href="../../oldAnimation.html"> Old Animation </a>

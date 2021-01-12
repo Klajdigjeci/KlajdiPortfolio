@@ -42,7 +42,7 @@ class FrontPage extends React.Component{
 
         <div class="sixteen wide column">
             <form action="../../klajdiPortfolio/klajdiportfolio.html">
-                <button type="submit" className="profolio-btn">Take me directly to the profolio</button>
+                <button type="submit" className="profolio-btn">Take me directly to the Portfolio</button>
             </form>
         </div>
       </div>
